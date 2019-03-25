@@ -1,0 +1,20 @@
+<html>
+    <head>
+      
+      <meta name="viewport" content="initial-scale=1.0, 
+      width=device-width" />
+      <script src="http://js.api.here.com/v3/3.0/mapsjs-core.js" 
+      type="text/javascript" charset="utf-8"></script>
+      <script src="http://js.api.here.com/v3/3.0/mapsjs-service.js" 
+      type="text/javascript" charset="utf-8"></script>
+      
+</head>
+  <h1><%= data?data:"" %></h1>
+    <form action="/" method="get">
+        Departure Time: <input type="text" name="departuretime" value="201903241925" ><br><br>
+        Start Location: <input type="text" name="startlocation" value="geo!41.044257,29.007211"><br><br>
+        Airport Name: <input type="text" name="airportname" value="IST"><br><br>
+        <input type="submit">
+    </form>
+
+</html>
